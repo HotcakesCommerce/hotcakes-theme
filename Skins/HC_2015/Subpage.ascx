@@ -25,7 +25,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js" type="text/javascript"></script>
 <dnn:DnnJsInclude runat="server" FilePath="js/jquery.selectBox.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/bootstrap-tabcollapse.min.js" PathNameAlias="SkinPath" />
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <dnn:DnnJsInclude runat="server" FilePath="js/common.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/jquery.contact-buttons.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/socialbuttonInitialize.js" PathNameAlias="SkinPath" Priority="500" />
