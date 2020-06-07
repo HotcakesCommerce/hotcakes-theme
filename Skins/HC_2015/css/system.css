@@ -1,0 +1,196 @@
+/* DNN system fixes */
+body > form #ControlBar_ControlPanel {
+	z-index:1200 !important;
+}
+
+#ControlBar *,.dnn_mact * {
+  -webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	font-weight:normal;
+}
+
+.dnn_mact * {
+	margin-left:-1px !important;
+}
+.dnn_mact > li ul a > * {
+	vertical-align: middle;
+	font-size:13px;
+}
+.dnnDragHint {
+	border:1px dashed #DDD;
+}
+form .actionMenu ul {
+	z-index:900 !important;
+}
+.dnnEditState .DnnModule {
+	opacity:1;
+}
+span.dnnInputFileWrapper {
+	color:#FFF;
+}
+.dnnDropDownList .selected-item a, .dnnDropDownList .selected-item a:link, .dnnDropDownList .selected-item a:visited, .dnnDropDownList .selected-item a:hover, .dnnDropDownList .selected-item a:active {
+	height:auto !important;
+}
+.console-large {
+	display:inline-table;
+}
+.dnnDropDownList .dt-container .dt-header {
+	height:46px;
+}
+.dnnFormItem input[type="text"], .dnnFormItem select, .dnnFormItem textarea, .dnnFormItem input[type="email"], .dnnFormItem input[type="search"], .dnnFormItem input[type="password"] {
+	font-size:14px;
+	line-height: 18px;
+}
+.urlControl {
+	width:100%;
+}
+.urlControl input[type=checkbox] {
+	width:20px;
+}
+.urlControlFileRow span.dnnFormLabel {
+	display:inline-block;
+	padding-bottom:10px;
+}
+.dnnSiteSettings .dnnFormItem input[type="text"]:not(.rcbInput), .dnnSiteSettings .dnnFormItem .dnnFormInput, .dnnSiteSettings .dnnFormItem textarea, .dnnPortalSignup .dnnFormItem input[type="text"]:not(.rcbInput), .dnnPortalSignup .dnnFormItem .dnnFormInput, .dnnPortalSignup .dnnFormItem textarea, .dnnExportPortal .dnnFormItem input[type="text"]:not(.rcbInput), .dnnExportPortal .dnnFormItem textarea {
+	width:45% !important;
+}
+.HCskins ul.dnnAdminTabNav li a {
+	display: block;
+    height:39px;
+}
+.HCskins ul.dnnAdminTabNav li.ui-tabs-active a {
+	display: block;
+    height:43px;
+}
+.HCskins ul.dnnAdminTabNav {
+	height: 40px;
+}
+
+.HCskins #dnnModuleDigitalAssetsSelectionToolbar, 
+.HCskins #dnnModuleDigitalAssetsListViewToolbar, 
+.HCskins #dnnModuleDigitalAssetsListContainer, 
+.HCskins .dnnModuleDigitalAssetsGrid > table > thead > tr {
+	min-height:35px;
+}
+span.mark {
+	background-color: transparent;
+	padding:0;
+}
+
+/* Input Customised Checkbox*/
+.dnnCheckbox {
+    display: inline-block;
+    cursor: pointer;
+}
+.dnnCheckbox .mark {
+	display: inline-block; /*margin-top: 3px;*/
+}
+.dnnCheckbox img {
+	display: inline-block;
+	width: 20px;
+	height: 18px;
+	min-width: 20px;
+	vertical-align: middle;
+}
+.dnnCheckbox img {
+	background: transparent url(../images/checkbox.png) no-repeat;
+}
+.dnnCheckbox img {
+	background-position: 0 0;
+}
+.dnnCheckbox-hover img,
+.dnnCheckbox:hover img {
+    background-position: -200px 0;
+}
+.dnnCheckbox-checked img {
+    background-position: -50px 0;
+}
+.dnnCheckbox-checked:hover img {
+    background-position: -250px 0;
+}
+.dnnCheckbox-disabled img {
+    background-position: -300px 0;
+    opacity: 1;
+}
+.dnnCheckbox-checked-error img {
+    background-position: -150px 0;
+}
+.dnnCheckbox-error img {
+    background-position: -100px 0;
+}
+.dnnCheckbox-focus {
+	background-color: #e3e3e5;
+}
+
+/* Input Customised Radiobutton */
+.dnnRadiobutton img {
+	background: transparent url(../images/radiobutton.png) no-repeat;
+}
+.dnnRadiobutton img {
+	background-position: 0 0;
+}
+.dnnRadiobutton-hover img {
+    background-position: -200px 0;
+}
+.dnnRadiobutton-checked img {
+    background-position: -50px 0;
+}
+.dnnRadiobutton-checked:hover img {
+    background-position: -250px 0;
+}
+.dnnRadiobutton-disabled img {
+    background-position: -300px 0;
+	opacity: 1;
+}
+.dnnRadiobutton-checked-error img {
+    background-position: -150px 0;
+}
+.dnnRadiobutton-error img {
+    background-position: -100px 0;
+}
+.dnnRadiobutton-focus {
+	background-color: #e3e3e5;
+}
+
+/* non system radio and checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+	/*display:none;*/
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	cursor:pointer;
+	margin: 0 15px 5px 0;
+	font-weight:normal;
+}
+input[type="radio"] + label:before,
+input[type="checkbox"] + label:before {
+    content:'';
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin-right:5px;
+	background-position: 0 0;
+	vertical-align:middle;
+}
+input[type="radio"] + label:before {
+	background: transparent url(../images/radiobutton.png) no-repeat;
+}
+input[type="checkbox"] + label:before {
+	background: transparent url(../images/checkbox.png) no-repeat;
+}
+input[type="radio"]:hover + label:before,
+input[type="checkbox"]:hover + label:before {
+    background-position: -200px 0;
+}
+input[type="radio"]:checked + label:before,
+input[type="checkbox"]:checked + label:before {
+    background-position: -50px 0;
+}
+input[type="radio"]:checked:hover + label:before,
+input[type="checkbox"]:checked:hover + label:before {
+    background-position: -250px 0;
+}
+
+

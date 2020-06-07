@@ -1,0 +1,271 @@
+/* Let's go responsive, baby! */
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+/* parallax stuff */
+.mobile body {
+	overflow: hidden;
+}
+.mobile .BGTable {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.mobile #scroller {
+	height: 3000px;
+}
+
+@media (max-width:1250px) {
+
+	.siteWidth {
+		width:auto !important;
+	}
+	.skewCell {
+		height:200px;
+		line-height:200px;
+	}
+
+}
+@media (max-width:991px) {
+	/* containers */
+	.heroTabs {
+		margin: 0 -25px;
+	}
+	#dnn_TabMenuPane .heroTabs a {
+		font-size: 15px;
+		line-height: 45px;
+		padding: 0 15px;
+	}	
+}
+@media (max-width:1023px) {
+
+	/* modules */
+	.HCskins .MainPane #mdMemberList > li {
+		width:50%;
+	}
+	.HCskins .ModDNNFeedbackC fieldset:first-of-type .Feedback_Field {
+		width:100%;
+	}
+	.HCskins .ModDNNFeedbackC fieldset:first-of-type > div:nth-child(2n-1),
+	.HCskins .ModDNNFeedbackC fieldset:first-of-type > div:nth-child(2n) {
+		padding:0;
+	}
+
+}
+@media (max-width:991px) {
+	
+	/* content */
+	/*.hero .larger .fa.fa-heart-o {*/
+	.hero .larger .heart {
+		bottom: -7px;
+		display: block;
+		position: relative;
+		text-align: center;
+	}
+	.clients {
+		margin:0 -3% 0 -11%;
+	}
+	.clients > span:nth-child(odd) {
+		width: 51% !important;
+	}
+	.clients > span:nth-child(even) {
+		width: 49% !important;
+	}
+	.analyticsWrap > img.triggerAnimation {
+		max-height:50%;
+	}
+	
+	
+	/* content */
+	.skewImg {
+		width:100%;
+	}
+	.skewImg .skewMask {
+		opacity:0;
+	}
+	.skewImg > div {
+		opacity:0.2;
+	}
+	.skewCell {
+		height:150px;
+		line-height:150px;
+	}
+}
+@media (max-width:991px) and (orientation:portrait) {
+	
+	/* content */
+	.analyticsWrap > img.triggerAnimation {
+		max-height:30%;
+	}
+
+}
+@media (max-width:768px) {
+	.headerWrap,
+	.headerMain,.headerMain2 {
+		min-height:70px;
+	}
+
+	.bannerMainFull,
+	.bannerMainFull .ContentPane,
+	.bannerMainFull .ContentPane > div,
+	.bannerMainFull .ContentPane .fullScreen,
+	.bannerMainFull.bannerMain .parallaxMe {
+		height:auto !important;
+		min-height:auto;
+	}
+	.bannerMainFull.bannerMain .padThis {
+		padding: 110px 25px;
+	}
+
+
+	.medButton.compact, .medButton.compact:hover, .medButton.compact:active, .medButton.compact:focus, 
+	a.medButton.compact, a.medButton.compact:hover, a.medButton.compact:active, a.medButton.compact:focus {
+		min-width: 40px !important;
+		padding: 10px !important;
+	}
+	.medButton.compact span {
+		display:none;
+	}
+	.logoMain img {
+		width:150px;
+		padding: 13px 0;
+	}
+	.mobileMenuMain {
+		margin: 15px 0 0;
+	}
+	.Footertxt, a.Footertxt {
+		display:block;
+	}
+
+	/* containers */
+	.tabMenu {
+		border-bottom: 0;
+		bottom: 40px;
+	}
+	#dnn_TabMenuPane .heroTabs a,
+	#dnn_TabMenuPane .heroTabs li {
+		display:block;
+		margin:0 auto 2px;
+		max-width:240px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+	/* modules */
+	.DnnAnnImage {
+		width:50%;
+	}
+	.HCskins .MainPane #mdMemberList > li {
+		width:100%;
+	}
+}
+@media (max-width:640px) {
+	.siteWidth {}
+	.headerMain .siteWidth,
+	.headerMain2 .siteWidth {
+		padding: 0 10px;
+	}
+	.breadcrumbMain {
+		padding-top: 70px;
+	}
+	
+	/* containers */
+	.padThis {
+		padding: 70px 25px;
+	}
+	.bannerMain .padThis {
+		padding: 130px 25px 70px;
+	}
+	.hero.min-height,
+	.bannerMain .parallaxMe {
+		padding: 0;
+		min-height:auto;
+	}
+
+
+	.imgLeft,
+	.imgRight {
+		float:none;
+		margin:0 auto 20px;
+		display:block;
+	}
+
+	/* content */
+	.jackPotWrap {
+		display: block;
+		height: 43px;
+		padding: 4px 0 0 0;
+		position: relative;
+		width: 233px;
+	}
+	.clients > span:nth-child(odd) img {
+		margin: 0 -15% 0 0;
+	}
+	.clients > span:nth-child(even) img {
+		padding:0 5%;
+	}
+	#Tech .media-left {
+		display: block;
+		margin: 0 auto 20px;
+		min-width: 100%;
+		text-align: center;
+	}
+	#Tech .media-left .media-object {
+		margin: auto;
+	}
+	#Tech .media-body {
+		text-align: center;
+	}
+	
+}
+@media (max-width:480px) {
+	
+	/* modules */
+	.showControlBar .HCskins .ModBlogC .blog-main-content {
+	  padding: 5.5em 0 0;
+	}
+	.showControlBar .HCskins .ModBlogC .dnnPrimaryAction,
+	.showControlBar .HCskins .ModBlogC .dnnSecondaryAction {
+	  padding:7px;
+	}
+	.HCskins .dnnMemberDirectory .mdSearchBar input[type="text"] {
+		display: block;
+		float: left;
+		width: 160px;
+	}
+
+}
+@media (max-width:400px) {
+	.breadLeft {
+	  float: none;
+	  padding: 17px 0 0;
+	}
+	.breadRight {
+	  float: none;
+	  padding: 10px 0;
+	}
+
+	/* modules */
+	.HCskins .DnnAnnImage {
+		width:100%;
+		margin-bottom:10px;
+	}
+	.HCskins .dnnForm.FeedbackForm .dnnFormItem .RadCaptcha.RadCaptcha_Default {
+		width: 100%;
+	}
+
+	/* content */
+	.skewCell {
+		height:100px;
+		line-height:100px;
+	}
+	.clients {
+		margin:0 -3% 0 -13%;
+	}
+}

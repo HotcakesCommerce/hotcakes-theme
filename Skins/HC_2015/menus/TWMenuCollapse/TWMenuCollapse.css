@@ -1,0 +1,116 @@
+#CollapseMenu {
+	margin:0;
+	padding:0;
+}
+#CollapseMenu * {
+	padding:0;
+	margin:0;
+}
+#CollapseMenu ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:100%;
+}
+#CollapseMenu > ul {
+	padding:35px 25px;
+}
+#CollapseMenu > ul:empty {
+	padding:0;
+}
+#CollapseMenu li.menuItem {
+	position:relative;
+	width:100%;
+	margin-bottom:1px;
+	background:#FFF;
+}
+#CollapseMenu li.menuItem a {
+	line-height:20px;
+	display:block;
+	padding:10px 30px 10px 10px;
+	font-size:16px;
+	border:1px solid #EEE;
+}
+#CollapseMenu .collapseArrow {
+	width:38px;
+	height:38px;
+	position:absolute;
+	top:1px;
+	right:1px;
+	cursor:pointer;
+	background:#FFF;
+}
+#CollapseMenu .collapseArrow:before {
+	font-family:'FontAwesome';
+	content:'';
+	font-size:18px;
+	text-align:center;
+	line-height:20px;
+	width:38px;
+	padding:10px 0;
+	display:block;
+}
+#CollapseMenu .collapseArrow.collapsed:before {
+	content:'';
+}
+
+/* subMenu */
+#CollapseMenu .subMenu {
+	background:#F9F9F9;
+	padding:3px;
+}
+#CollapseMenu .subMenu li.menuItem {
+	margin-bottom:1px;
+	background:#F9F9F9;
+}
+#CollapseMenu .subMenu li.menuItem a {/* 2nd Level */
+	color:#A9A9A9;
+	padding:5px 30px 5px 20px;
+	font-size:15px;
+	border:0;
+}
+#CollapseMenu .subMenu li li.menuItem a {/* 3rd Level */
+	padding:5px 30px 5px 30px;
+}
+#CollapseMenu .subMenu li li li.menuItem a {/* 4th Level */
+	padding:5px 30px 5px 38px;
+}
+#CollapseMenu .subMenu li li li li.menuItem a {/* 5th Level */
+	padding:5px 30px 5px 50px;
+}
+#CollapseMenu .subMenu li.menuItem a:hover {
+	color:#000;
+}
+#CollapseMenu .subMenu .collapseArrow {
+	height:30px;
+	background:#F9F9F9;
+}
+#CollapseMenu .subMenu .collapseArrow:before {
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	width:30px;
+	display:block;
+	padding:0;
+	margin:0 5px;
+	background:#F2F2F2;
+}
+#CollapseMenu li li.menuItem a:before {
+	font-family:'FontAwesome';
+	content:'';
+	line-height:20px;
+	width:10px;
+	display:block;
+	margin:1px 0 0 -10px;
+	float:left;
+}
+/* breadcrumbs */
+#CollapseMenu .menuItem.in.haschild > a {
+	color:#BBB;
+}
+#CollapseMenu .subMenu .menuItem.menubreadcrumb > a {
+	color:#000;
+}
+#CollapseMenu .in.haschild > ul {
+	display:block;
+}

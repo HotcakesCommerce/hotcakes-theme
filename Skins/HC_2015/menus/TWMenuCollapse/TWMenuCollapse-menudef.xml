@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <template>TWMenuCollapseTokens.txt</template>
+  <stylesheets>
+    <stylesheet>TWMenuCollapse.css</stylesheet>
+  </stylesheets>
+</manifest>

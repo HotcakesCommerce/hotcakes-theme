@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <template>TWULTokens.txt</template>
+  <scripts>
+    <script>TWMenu.js</script>
+  </scripts>
+  <stylesheets>
+    <stylesheet>TWMenu.css</stylesheet>
+  </stylesheets>
+</manifest>

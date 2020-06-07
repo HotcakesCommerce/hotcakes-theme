@@ -1,0 +1,449 @@
+
+
+/* Bootstrap Add Ons &  */
+/* new breaking point */
+@media (max-width:640px) {
+	.col-xxs-1,.col-xxs-2,.col-xxs-3,.col-xxs-4,.col-xxs-5,.col-xxs-6,.col-xxs-7,.col-xxs-8,.col-xxs-9,.col-xxs-10,.col-xxs-11,.col-xxs-12 {
+	  position: relative;
+	  min-height: 1px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+	.col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4, .col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8, .col-xxs-9, .col-xxs-10, .col-xxs-11 {
+	  float: left;
+	}
+	.col-xxs-12 {
+	  width: 100%;
+	}
+	.col-xxs-11 {
+	  width: 91.66666666666666%;
+	}
+	.col-xxs-10 {
+	  width: 83.33333333333334%;
+	}
+	.col-xxs-9 {
+	  width: 75%;
+	}
+	.col-xxs-8 {
+	  width: 66.66666666666666%;
+	}
+	.col-xxs-7 {
+	  width: 58.333333333333336%;
+	}
+	.col-xxs-6 {
+	  width: 50%;
+	}
+	.col-xxs-5 {
+	  width: 41.66666666666667%;
+	}
+	.col-xxs-4 {
+	  width: 33.33333333333333%;
+	}
+	.col-xxs-3 {
+	  width: 25%;
+	}
+	.col-xxs-2 {
+	  width: 16.666666666666664%;
+	}
+	.col-xxs-1 {
+	  width: 8.333333333333332%;
+	}
+	.col-xxs-pull-12 {
+	  right: 100%;
+	}
+	.col-xxs-pull-11 {
+	  right: 91.66666666666666%;
+	}
+	.col-xxs-pull-10 {
+	  right: 83.33333333333334%;
+	}
+	.col-xxs-pull-9 {
+	  right: 75%;
+	}
+	.col-xxs-pull-8 {
+	  right: 66.66666666666666%;
+	}
+	.col-xxs-pull-7 {
+	  right: 58.333333333333336%;
+	}
+	.col-xxs-pull-6 {
+	  right: 50%;
+	}
+	.col-xxs-pull-5 {
+	  right: 41.66666666666667%;
+	}
+	.col-xxs-pull-4 {
+	  right: 33.33333333333333%;
+	}
+	.col-xxs-pull-3 {
+	  right: 25%;
+	}
+	.col-xxs-pull-2 {
+	  right: 16.666666666666664%;
+	}
+	.col-xxs-pull-1 {
+	  right: 8.333333333333332%;
+	}
+	.col-xxs-pull-0 {
+	  right: 0%;
+	}
+	.col-xxs-push-12 {
+	  left: 100%;
+	}
+	.col-xxs-push-11 {
+	  left: 91.66666666666666%;
+	}
+	.col-xxs-push-10 {
+	  left: 83.33333333333334%;
+	}
+	.col-xxs-push-9 {
+	  left: 75%;
+	}
+	.col-xxs-push-8 {
+	  left: 66.66666666666666%;
+	}
+	.col-xxs-push-7 {
+	  left: 58.333333333333336%;
+	}
+	.col-xxs-push-6 {
+	  left: 50%;
+	}
+	.col-xxs-push-5 {
+	  left: 41.66666666666667%;
+	}
+	.col-xxs-push-4 {
+	  left: 33.33333333333333%;
+	}
+	.col-xxs-push-3 {
+	  left: 25%;
+	}
+	.col-xxs-push-2 {
+	  left: 16.666666666666664%;
+	}
+	.col-xxs-push-1 {
+	  left: 8.333333333333332%;
+	}
+	.col-xxs-push-0 {
+	  left: 0%;
+	}
+	.col-xxs-offset-12 {
+	  margin-left: 100%;
+	}
+	.col-xxs-offset-11 {
+	  margin-left: 91.66666666666666%;
+	}
+	.col-xxs-offset-10 {
+	  margin-left: 83.33333333333334%;
+	}
+	.col-xxs-offset-9 {
+	  margin-left: 75%;
+	}
+	.col-xxs-offset-8 {
+	  margin-left: 66.66666666666666%;
+	}
+	.col-xxs-offset-7 {
+	  margin-left: 58.333333333333336%;
+	}
+	.col-xxs-offset-6 {
+	  margin-left: 50%;
+	}
+	.col-xxs-offset-5 {
+	  margin-left: 41.66666666666667%;
+	}
+	.col-xxs-offset-4 {
+	  margin-left: 33.33333333333333%;
+	}
+	.col-xxs-offset-3 {
+	  margin-left: 25%;
+	}
+	.col-xxs-offset-2 {
+	  margin-left: 16.666666666666664%;
+	}
+	.col-xxs-offset-1 {
+	  margin-left: 8.333333333333332%;
+	}
+	.col-xxs-offset-0 {
+	  margin-left: 0%;
+	}
+}
+/* added offset 1/2 column */
+@media (min-width:640px) {
+	.col-xxs-offset-half-col {
+	  margin-left:4.166666666666665%;
+	}
+}
+@media (min-width:767px) {
+	.col-xs-offset-half-col {
+	  margin-left:4.166666666666665%;
+	}
+}
+@media (min-width:768px) {
+	.col-sm-offset-half-col {
+	  margin-left:4.166666666666665%;
+	}
+}
+@media (min-width:992px) {
+	.col-md-offset-half-col {
+	  margin-left:4.166666666666665%;
+	}
+}
+@media (min-width:1200px) {
+	.col-lg-offset-half-col {
+	  margin-left:4.166666666666665%;
+	}
+}
+
+.visible-xxs, .visible-xs, .visible-sm, .visible-md, .visible-lg {
+	display:none!important
+}
+@media (min-width:641px) and (max-width:767px) {
+.visible-xs {
+	display:block!important
+}
+table.visible-xs {
+	display:table
+}
+tr.visible-xs {
+	display:table-row!important
+}
+th.visible-xs, td.visible-xs {
+	display:table-cell!important
+}
+}
+@media (max-width:640px) { /* this has to come after the xs entry */
+.visible-xxs {
+	display:block!important
+}
+table.visible-xxs {
+	display:table
+}
+tr.visible-xxs {
+	display:table-row!important
+}
+th.visible-xxs, td.visible-xxs {
+	display:table-cell!important
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+.visible-sm {
+	display:block!important
+}
+table.visible-sm {
+	display:table
+}
+tr.visible-sm {
+	display:table-row!important
+}
+th.visible-sm, td.visible-sm {
+	display:table-cell!important
+}
+}
+@media (min-width:992px) and (max-width:1199px) {
+.visible-md {
+	display:block!important
+}
+table.visible-md {
+	display:table
+}
+tr.visible-md {
+	display:table-row!important
+}
+th.visible-md, td.visible-md {
+	display:table-cell!important
+}
+}
+@media (min-width:1200px) {
+.visible-lg {
+	display:block!important
+}
+table.visible-lg {
+	display:table
+}
+tr.visible-lg {
+	display:table-row!important
+}
+th.visible-lg, td.visible-lg {
+	display:table-cell!important
+}
+}
+
+@media (min-width:641px) and (max-width:767px) {
+.hidden-xs {
+	display:none!important
+}
+}
+@media (max-width:640px) { /* this has to come after the xs entry */
+.hidden-xxs {
+	display:none!important
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+.hidden-sm {
+	display:none!important
+}
+}
+@media (min-width:992px) and (max-width:1199px) {
+.hidden-md {
+	display:none!important
+}
+}
+@media (min-width:1200px) {
+.hidden-lg {
+	display:none!important
+}
+}
+@media print {
+.visible-print {
+	display:block!important
+}
+table.visible-print {
+	display:table
+}
+tr.visible-print {
+	display:table-row!important
+}
+th.visible-print, td.visible-print {
+	display:table-cell!important
+}
+}
+@media print {
+.hidden-print {
+	display:none!important
+}
+}
+
+/* custom inclusion of right, left and below tabs */
+.tabs-below > .nav-tabs, .tabs-right > .nav-tabs, .tabs-left > .nav-tabs {
+	border-bottom: 0;
+	position:relative;
+	z-index:998;
+}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+	display: none;
+}
+.tab-content > .active, .pill-content > .active {
+	display: block;
+}
+.tabs-below > .nav-tabs {
+	border-top: 1px solid #EEE;
+}
+.tabs-below > .nav-tabs > li {
+	margin-top: -1px;
+	margin-bottom: 0;
+}
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+.tabs-below > .nav-tabs > li > a:hover, .tabs-below > .nav-tabs > li > a:focus {
+	border-top-color: #EEE;
+	border-bottom-color: transparent;
+}
+.tabs-below > .nav-tabs > .active > a, .tabs-below > .nav-tabs > .active > a:hover, .tabs-below > .nav-tabs > .active > a:focus {
+	border-color: transparent #EEE #EEE #EEE;
+}
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+	float: none;
+}
+.tabs-left > .nav-tabs > li > a, .tabs-right > .nav-tabs > li > a {
+	min-width: 74px;
+	margin-right: 0;
+	margin-bottom: 3px;
+}
+.tabs-left > .nav-tabs {
+	float: left;
+	margin-right: 0;
+	border-right: 1px solid #EEE;
+}
+.tabs-left > .nav-tabs > li > a {
+	margin-right: -1px;
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	text-align: right;
+}
+.tabs-left > .nav-tabs > li > a:hover, .tabs-left > .nav-tabs > li > a:focus {
+	border-color: #EEE #EEE #EEE #EEE;
+	background:#FAFAFA;
+}
+.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus {
+	border-color: #EEE transparent #EEE #EEE;
+*	border-right-color: #FFF;
+	background:#FFF;
+}
+.tabs-right > .nav-tabs {
+	float: right;
+	margin-left: 0;
+	border-left: 1px solid #EEE;
+}
+.tabs-right > .nav-tabs > li > a {
+	margin-left: -1px;
+	-webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+.tabs-right > .nav-tabs > li > a:hover, .tabs-right > .nav-tabs > li > a:focus {
+	border-color: #EEE #EEE #EEE #EEE;
+	background:#FAFAFA;
+}
+.tabs-right > .nav-tabs .active > a, .tabs-right > .nav-tabs .active > a:hover, .tabs-right > .nav-tabs .active > a:focus {
+	border-color: #EEE #EEE #EEE transparent;
+*	border-left-color: #FFF;
+	background:#FFF;
+}
+
+/* Tab Content */
+.tabs-left .tab-content {
+	padding-left: 25px !important;
+	padding-right: 0 !important;
+}
+.tabs-right .tab-content {
+	padding-left: 0 !important;
+	padding-right: 25px !important;
+}
+
+@media (max-width:767px) {
+	.tabs-left > .nav-tabs,  .tabs-right > .nav-tabs {
+		float: none;
+		margin:0 0 20px;
+		border:0;
+	}
+	.tabs-left > .nav-tabs > li > a,  .tabs-right > .nav-tabs > li > a {
+		margin:0 -1px 3px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		border: 1px solid #EEE;
+		text-align: center;
+	}
+	.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus,  
+	.tabs-right > .nav-tabs .active > a, .tabs-right > .nav-tabs .active > a:hover, .tabs-right > .nav-tabs .active > a:focus {
+		border: 1px solid #EEE;
+		background:#F9F9F9;
+	}
+}
+
+
+/* Collapse */
+.tabbable .panel-default {
+  border:0;
+}
+.tabbable .panel-heading {
+  background: #F9F9F9;
+  border:1px solid #F2F2F2;
+  color: #666;
+  padding:0;
+}
+.tabbable .panel-title {
+  font-size: inherit;
+}
+.tabbable .panel-heading a {
+  padding:10px 15px;
+  display:block;
+}
+.tabbable .panel-default > .panel-heading + .panel-collapse .panel-body {
+  border:0;
+  padding:20px 0 10px;
+}
+	

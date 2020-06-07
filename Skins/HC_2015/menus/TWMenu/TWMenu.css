@@ -1,0 +1,260 @@
+#dnnMenu {
+	margin:0 -15px 0 0;
+	padding:0;
+}
+#dnnMenu * {
+	padding:0;
+	margin:0;
+}
+#dnnMenu li a * {
+	text-decoration: none;
+	-moz-transition:none!important;
+	-webkit-transition:none!important;
+	-o-transition:none!important;
+	-ms-transition:none!important;
+	transition:none!important;
+}
+#dnnMenu li a div *, #dnnMenu .subMenu li a * {
+	text-decoration: none;
+	-moz-transition:all 0.4s linear!important;
+	-webkit-transition:all 0.4s linear!important;
+	-o-transition:all 0.4s linear!important;
+	-ms-transition:all 0.4s linear!important;
+	transition:all 0.4s linear!important;
+}
+#dnnMenu .rootMenu {
+	position:relative;
+	z-index:903;
+}
+#dnnMenu .rootMenu li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+	background:none;
+}
+#dnnMenu .rootMenu li.last {
+	padding:0;
+	background:none;
+}
+#dnnMenu .rootMenu li a {
+	display:block;
+	background:none;
+	text-decoration:none;
+}
+#dnnMenu .rootMenu li.TWselected a, #dnnMenu .rootMenu li.rmhover a, #dnnMenu .rootMenu li.TWbreadcrumb a, #dnnMenu .rootMenu li a:hover {
+	background:none;
+	text-decoration:none;
+}
+/* Center*/
+#dnnMenu .rootMenu li a div {
+	display:block;
+	background:none;
+	padding:0;
+	cursor:pointer;
+}
+#dnnMenu .rootMenu li.TWselected a div, #dnnMenu .rootMenu li.rmhover a div, #dnnMenu .rootMenu li.TWbreadcrumb a div, #dnnMenu .rootMenu li a:hover div {
+	background:none;
+}
+/* Right*/
+#dnnMenu .rootMenu li a div div {
+	position:relative;
+	display:block;
+	background:none;
+	margin:0;
+	padding:0 12px;
+	color:#FFF;
+	white-space:nowrap;
+	line-height:100px;
+	font-family:'Lato', Arial, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.headerMain2 #dnnMenu .rootMenu li a div div {
+	color:#F04F30;
+}
+#dnnMenu .rootMenu li.rmhover a div div, 
+#dnnMenu .rootMenu li a:hover div div {
+	color:#FFF;
+	background:rgba(0,0,0,0.3);
+}
+#dnnMenu .rootMenu li.TWbreadcrumb a div div, 
+#dnnMenu .rootMenu li.TWselected a div div, 
+#dnnMenu .rootMenu li.TWbreadcrumb a:hover div div {
+	color:#DDD;
+}
+/* on heros */
+.headerMain2 #dnnMenu .rootMenu li a div div,
+.headerMain2 #dnnMenu .rootMenu li.rmhover a div div, 
+.headerMain2 #dnnMenu .rootMenu li a:hover div div {
+	color:#817A74;
+}
+.headerMain2 #dnnMenu .rootMenu li.rmhover a div div, 
+.headerMain2 #dnnMenu .rootMenu li a:hover div div {
+	background:rgba(0,0,0,0.05);
+}
+.headerMain2 #dnnMenu .rootMenu li.TWbreadcrumb a div div, 
+.headerMain2 #dnnMenu .rootMenu li.TWselected a div div, 
+.headerMain2 #dnnMenu .rootMenu li.TWbreadcrumb a:hover div div {
+	color:#000;
+}
+
+/*Left*/
+#dnnMenu .subMenu {
+	display:none;
+	position:absolute;
+	width:auto;
+	margin:3px 0 0;
+	padding:0;
+	z-index:9999;
+	min-width:200px;
+	background: #FFF;
+	border:1px solid #F2F2F2;
+}
+#dnnMenu ul ul {
+	border-top:none;
+	z-index:9999;
+}
+#dnnMenu ul ul ul {
+}
+#dnnMenu .rootMenu li.hover .subMenu {
+	display:block;
+	white-space:nowrap;
+}
+#dnnMenu .subMenu ul {
+	margin:2px 0 0;
+	padding:0;
+	position:relative;
+	z-index:1200;
+}
+#dnnMenu .subMenu li {
+	float:none;
+	background:none;
+	clear:both;
+	width:100%;
+	padding:0;
+	text-align:left;
+}
+
+#dnnMenu .subMenu li.haschild > a > div:before {
+	content:'';
+	display:block;
+	float:right;
+	text-decoration: inherit;
+	font-size: 12px;
+	font-family: 'FontAwesome';
+	font-style: normal;
+	line-height:100%;
+	margin:4px 0 0;
+}
+#dnnMenu .subMenu li.item a {
+	border:none;
+	background:none;
+}
+#dnnMenu .subMenu li.first > a {
+	border-top: none;
+}
+#dnnMenu .subMenu li.item a div {
+	display:block;
+	font-weight:normal;
+	font-size:14px;
+	color:#222;
+	padding:7px;
+	border-bottom:0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background:#FFF;
+	margin:3px;
+}
+#dnnMenu .subMenu li.TWselected > a div, #dnnMenu .subMenu li.TWbreadcrumb > a div, #dnnMenu .subMenu li.item a:hover div {
+	color:#222;
+	background:#F7F7F7;
+}
+#dnnMenu .subMenu li.haschild > a {
+}
+#dnnMenu .subMenu li.TWselected.haschild > a div, #dnnMenu .subMenu li.TWbreadcrumb.haschild > a div, #dnnMenu .subMenu li.item.haschild > a:hover div {
+}
+#dnnMenu .subMenuRight {
+	display:none;
+	position:absolute;
+	left:100%;
+	top:-6px;
+	width:auto;
+	margin:2px 0 0 4px;
+	padding:0;
+	z-index:9999;
+	min-width:200px;
+	background: #FFF;
+	border:1px solid #F2F2F2;
+}
+#dnnMenu .subMenu > li.hover > .subMenuRight {
+	display:none;
+}
+
+/* Mega Menu */
+#dnnMenu .megamenu .subMenu {
+	margin-left:-250%;
+	padding:0 0 3px 3px;
+}
+#dnnMenu .megamenu .subMenu > ul {
+	width:600px;
+}
+#dnnMenu .megamenu .subMenu li {
+	width:200px;
+	float:left;
+	clear:none;
+}
+#dnnMenu .megamenu .subMenu li.item a div {
+	margin:3px 3px 0 0;
+}
+#dnnMenu .megamenu .subMenu li.haschild > a > div:before {
+	content:'';
+}
+#dnnMenu .megamenu .subMenuRight {
+	display:block !important;
+	left:0;
+	top:0;
+	position: relative;
+	width:198px;
+	margin:0;
+	padding:0 0 3px;
+	border:0;
+}
+#dnnMenu .megamenu .subMenuRight li.item a div {
+	padding:4px 0 5px 17px;
+	color:#817A74;
+}
+#dnnMenu .megamenu .subMenuRight li.item a div:before {
+	content:'';
+	font-family:'FontAwesome';
+	width:10px;
+	float:left;
+	margin:0.5px 0 0 -10px;
+}
+#dnnMenu .megamenu .subMenuRight li.item.haschild > a > div:before {
+	margin:3px 0 0 -10px;
+}
+
+#dnnMenu .megamenu .subMenuRight .subMenuRight {
+	padding:0;
+}
+#dnnMenu .megamenu .subMenuRight .subMenuRight .subMenuRight {
+	width:183px;
+	min-width:183px;
+}
+#dnnMenu .megamenu .subMenuRight li {
+	margin-bottom: 0;
+}
+#dnnMenu .megamenu .subMenuRight li li {
+	width:182px;
+	margin-left:17px;
+}
+#dnnMenu .megamenu .subMenuRight li li li {
+	width:165px;
+	margin-left:17px;
+}
+

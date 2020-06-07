@@ -1,0 +1,23 @@
+<div id="CollapseMenuMob">
+	<ul>[*>NODE]</ul>
+	[>NODE]
+		<li class="menuItem[?FIRST] first[/?][?LAST] last[/?] [?SELECTED][/?] [?BREADCRUMB] menubreadcrumb[/?] [?NODE] haschild[/?]">
+		[?ENABLED]
+			[?NODE]<span class="collapseArrow collapsed" data-toggle="collapse" data-target="#mobmenu[=ID]" data-parent="#CollapseMenuMob"></span>[/?]
+			<a href="[=URL]" [?NODE] [/?]>
+				[=TEXT]
+			</a>
+		[?ELSE]
+			[?NODE]<span class="collapseArrow collapsed" data-toggle="collapse" data-target="#mobmenu[=ID]" data-parent="#CollapseMenuMob"></span>
+			<a href="#" [?NODE] [/?]>
+				[=TEXT] [/?]
+			</a>
+		[/?]
+		[?NODE]
+			<ul id="mobmenu[=ID]" class="collapse [?BREADCRUMB] in[/?] subMenu">
+			[*>NODE]
+			</ul>
+		[/?]
+		</li>
+	[/>]
+</div>

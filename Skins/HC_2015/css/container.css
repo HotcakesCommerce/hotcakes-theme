@@ -1,0 +1,103 @@
+/* Styles for Containers  */
+/* Styles for Containers Title Container */
+
+/* Generic */
+.TitleWidth {
+	margin:0;
+	padding:0;
+}
+.TitleTitle {
+	padding:0;
+}
+.TitleTitle h2 {
+	padding:0;
+	margin: 0 0 25px;
+	text-transform:none;
+}
+.TitleTitle h4 {
+	padding:0;
+	margin: 0 0 15px;
+	text-transform:none;
+}
+.TitleContentpane {
+	vertical-align: top;
+	padding:0;
+}
+.TitleIcon {
+	float:left;
+}
+.TitleIcon img {
+	margin:0 8px 0 0;
+}
+
+/* Title Color */
+.TitleTitle h2,
+.TitleTitle h2 .ContainerTitle,
+.TitleTitle h4,
+.TitleTitle h4 .ContainerTitle {
+	font-weight:900;
+}
+
+/* On the Footer Panes */
+.footerPanes .TitleTitle h2,
+.footerPanes .TitleTitle h4 {
+	padding:0;
+	margin: 0 0 15px;
+	text-transform:none;
+}
+.footerPanes .TitleTitle h2 .ContainerTitle,
+.footerPanes .TitleTitle h4 .ContainerTitle {
+	color:#FFF;
+	font-size:17px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.footerPanes .ContainerTitle.LabelEditTextClass {
+	color:#BBB !important;
+}
+
+/* Full Screen Container */
+/*
+*/
+.fullScreen {
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height:100%;
+}
+.fullScreen .TitleWidth {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height:100%;
+}
+
+.noOverflow { /* for the skewed images */
+	overflow-x: hidden;
+}
+
+
+/* Container Paddings */
+.padThis {
+	padding:110px 25px;
+}
+.bannerMain .padThis {
+	padding: 270px 25px 160px;
+}
+.bannerMain.bannerMainFull .padThis {
+	padding: 170px 25px 70px;
+}
+.padThisLess {
+	padding:25px;
+}
+.noBottomPad {
+	padding-bottom:0 !important;
+}
+.noTopPad {
+	padding-top:0 !important;
+}
+.noPad {
+	padding:0 !important;
+}
+

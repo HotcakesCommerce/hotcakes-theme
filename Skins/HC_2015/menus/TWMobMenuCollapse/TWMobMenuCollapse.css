@@ -1,0 +1,117 @@
+#CollapseMenuMob {
+	margin:0;
+	padding:0 0 15px;
+	z-index:1000;
+	width:200px;
+	float:right;
+}
+#CollapseMenuMob * {
+	padding:0;
+	margin:0;
+}
+#CollapseMenuMob ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:100%;
+}
+#CollapseMenuMob li.menuItem {
+	position:relative;
+	width:100%;
+	margin-bottom:2px;
+}
+#CollapseMenuMob li.menuItem a {
+	line-height:20px;
+	display:block;
+	padding:12px 44px 12px 12px;
+	font-size:18px;
+	border:0;
+	color:#FFF;
+	background:#817A74;
+	background:rgba(27,27,27,0.85);
+}
+#CollapseMenuMob li.menuItem a:hover {
+	background:rgba(240,79,48,0.9);
+}
+#CollapseMenuMob .collapseArrow {
+	width:44px;
+	height:44px;
+	position:absolute;
+	top:1px;
+	right:1px;
+	cursor:pointer;
+	background:#F04F30;
+}
+#CollapseMenuMob .collapseArrow:before {
+	font-family:'FontAwesome';
+	content:'';
+	font-size:20px;
+	text-align:center;
+	width:44px;
+	height:44px;
+	line-height:44px;
+	padding:0;
+	display:block;
+}
+#CollapseMenuMob .collapseArrow.collapsed:before {
+	content:'';
+}
+/* subMenu */
+#CollapseMenuMob .subMenu {
+	background:rgba(0,0,0,0.45);
+	padding:3px;
+}
+#CollapseMenuMob .subMenu li.menuItem {
+	margin-bottom:1px;
+	background:rgba(0,0,0,0.45);
+}
+#CollapseMenuMob .subMenu li.menuItem a {/* 2nd Level */
+	background:rgba(0,0,0,0.45);
+	padding:10px 38px 10px 20px;
+	font-size:17px;
+	border:0;
+}
+#CollapseMenuMob .subMenu li li.menuItem a {/* 3rd Level */
+	padding:10px 38px 10px 30px;
+}
+#CollapseMenuMob .subMenu li li li.menuItem a {/* 4th Level */
+	padding:10px 38px 10px 38px;
+}
+#CollapseMenuMob .subMenu li li li li.menuItem a {/* 5th Level */
+	padding:10px 38px 10px 50px;
+}
+#CollapseMenuMob .subMenu li.menuItem a:hover {
+	color:#000;
+}
+#CollapseMenuMob .subMenu .collapseArrow {
+	height:36px;
+	width:36px;
+	background:#F04F30;
+}
+#CollapseMenuMob .subMenu .collapseArrow:before {
+	font-size:16px;
+	line-height:35px;
+	width:36px;
+	height: 36px;
+	margin:0 2px 0 0;
+	background:rgba(0,0,0,0.45);
+}
+#CollapseMenuMob li li.menuItem a:before {
+	font-family:'FontAwesome';
+	content:'';
+	line-height:20px;
+	width:10px;
+	display:block;
+	margin:1px 0 0 -10px;
+	float:left;
+}
+/* breadcrumbs */
+#CollapseMenuMob .menuItem.in.haschild > a {
+	color:#BBB;
+}
+#CollapseMenuMob .subMenu .menuItem.menubreadcrumb > a {
+	color:#000;
+}
+#CollapseMenuMob .in.haschild > ul {
+	display:block;
+}
