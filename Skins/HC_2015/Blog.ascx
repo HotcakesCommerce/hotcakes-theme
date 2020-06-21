@@ -21,7 +21,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.js" type="text/javascript"></script>
 <dnn:DnnJsInclude runat="server" FilePath="js/fit.text.min.js" PathNameAlias="SkinPath" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" type="text/javascript"></script>
 <dnn:DnnJsInclude runat="server" FilePath="js/jquery.selectBox.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/bootstrap-tabcollapse.min.js" PathNameAlias="SkinPath" />
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -42,7 +42,7 @@
 	  });
 	});
 </script>
-<!-- HC 2015 Skins | Blog Skin | 01.00.00 -->
+<!-- HC 2015 Skins | Blog Skin -->
 <div class="BGTable HCskins subPage blogPage">
   <div class="headerWrap">
     <header>
